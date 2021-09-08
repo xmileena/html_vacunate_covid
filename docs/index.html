@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buenos aires vacunate</title>
+    <link rel="icon" href="./covid.png">
+</head>
+
+<body>
+    <h1> Vacunación contra el covid - 19 </h1>
+    <form>
+        <fieldset>
+            <label>
+                Nombre y Apellido:
+                <input>
+                <br>
+                <br>
+                <label>
+                    Fecha de nacimiento:
+                    <input>
+                    <br>
+                    <br>
+                    <label>
+                        DNI:
+                        <input type="text" maxlength="9" pattern="[0-9]">
+                        
+                        <br>
+                        <br>
+                        <label>
+                            Numero de ciudadania:
+                            <input type="number">
+
+                        </label>
+        </fieldset>
+    </form>
+
+    <p> Es importante que la primera y segunda dosis sean del mismo laboratorio. No olvides presentar tu carnet cuando
+        recibas la segunda dosis. </p>
+
+    <form>
+        <fieldset>
+            <label>
+                vacuna:
+                <select name="vacuna" id="vacuna">
+                    <optgroup label="vacuna">
+                        <option value="sinopharm">sinopharm</option>
+                        <option value="aztrzeneca">aztrzeneca</option>
+                        <option value="faizer">faizer</option>
+                </select>
+                </optgroup>
+
+                <br>
+                <br>
+
+                <label>
+                    dosis :
+                    <select name="dosis" id="dosis">
+                        <optgroup label="dosis">
+                            <option value="primera dosis">primera dosis</option>
+                            <option value="segunda dosis">segunda dosis</option>
+                    </select>
+                    </optgroup>
+
+
+                    <br>
+                    <br>
+
+                    <label>
+                        Observaciones:
+                        <textarea name="mensaje" id="mensaje" cols="70" rows="10"></textarea>
+                        <br>
+                        <br>
+                        <button>enviar</button>
+
+                    </label>
+        </fieldset>
+    </form>
+
+    <address>
+        cualquier consulta entra a <a href="https://vacunatepba.gba.gob.ar//">vacunate.gob.ar</a>
+    </address>
+
+</body>
+
+</html>
